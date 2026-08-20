@@ -84,14 +84,10 @@ Produce a complete Markdown document with this structure and no extra commentary
 1. **Maximally broad language**: Prefer “any suitable”, “one or more”, “may”, “including but not limited to”, “or equivalent”. Avoid locking to specific libraries, model providers, storage mechanisms, or UI frameworks unless essential for enablement.
 2. **Explicit optionality**: Every non-core step (monitoring, persistence, conflict UI, specific preview technique, etc.) must be marked optional. State that any combination or omission is covered.
 3. **Enabling detail**: Provide enough concrete description (data structures, flows, preview mechanics, tree navigation semantics, etc.) that a person of ordinary skill can implement it without undue experimentation.
-4. **AI-in-its-own-tab & in-situ preview**: When the feature involves multi-model chat, always include:
-   - The AI chat interface is presented in its own tab (browser tab or distinct UI tab).
-   - In-line / in-situ preview of each model’s proposed code changes against the current code **before** application.
-5. **Selective per-model control & tree history**: Always cover independent apply/revert per model and the navigable conversation tree with node-associated code snapshots when those concepts are present.
-6. **No marketing or hype**: Neutral, technical, legal-style tone.
-7. **Title**: Make it broad (start with “Systems and Methods for…”) while still accurately reflecting the core invention.
-8. **Disclosure Number**: Use the next sequential number in the DA-YYYY- series if known; otherwise placeholder DA-YYYY-XXXX.
-9. **Self-contained**: The generated disclosure must stand alone; do not reference external code or prior conversation.
+4. **No marketing or hype**: Neutral, technical, legal-style tone.
+5. **Title**: Make it broad (start with “Systems and Methods for…”) while still accurately reflecting the core invention.
+6. **Disclosure Number**: Use the next sequential number in the CB-YYYY- series if known; otherwise placeholder DA-YYYY-XXXX.
+7. **Self-contained**: The generated disclosure must stand alone; do not reference external code or prior conversation.
 
 ## Workflow for the Agent
 1. Analyze the recent code changes / feature description.
@@ -105,7 +101,6 @@ Produce a complete Markdown document with this structure and no extra commentary
 - [ ] Title is broad yet precise
 - [ ] Summary states the invention at the highest reasonable level
 - [ ] Every major feature has a dedicated subsection with “may / optional” language
-- [ ] In-line/in-situ preview and “AI in its own tab” are explicitly covered when relevant
 - [ ] Non-Limiting Implementation section states that steps may be omitted
 - [ ] Novel Aspects section dedicates the broad concept + all sub-combinations + omissions
 - [ ] Closing dedication paragraph is present and unmodified
