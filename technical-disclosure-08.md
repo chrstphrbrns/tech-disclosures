@@ -162,8 +162,7 @@ neighboring concepts in the manner dictated by the interpolation. For
 example, if the target vector is an interpolation between "gig economy
 dispatch" and "generative AI substitution," the model generates a
 disclosure describing systems and methods for using generative AI to
-substitute gig economy tasks (e.g., the concepts detailed in Disclosure
-CB-2026-0007).
+substitute gig economy tasks.
 
 The generative model outputs a structured technical disclosure, including
 fields such as Field, Background, Summary, and Detailed Description,
