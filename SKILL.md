@@ -73,6 +73,9 @@ Produce a complete Markdown document with this structure and no extra commentary
 [3–5 concise advantages]
 
 ### NOVEL ASPECTS DEDICATED TO THE PUBLIC
+
+The following are dedicated to the public domain and are intended to serve as prior art against any later attempt to patent them:
+
 [Bullet list of the broad concept + all major sub-features + “all combinations, sub-combinations, independent practice of individual features, and obvious variations, including systems in which one or more steps are omitted.”]
 
 ---
